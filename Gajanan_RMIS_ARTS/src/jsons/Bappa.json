@@ -1,9 +1,44 @@
 [
     {
         "name": "LORD GANESHA",
-        "title": "A Beutifully Handcrafted Idol Of",
-        "long_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla asperiores natus quo blanditiis. Nesciunt, ab neque aut ullam at soluta quaerat tenetur magnam, inventore dolore fugiat beatae quisquam id quos!",
-        "short_desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-        "image": "/category_images/test.jpg"
+        "title": "A Beautifully Handcrafted Idol Of",
+        "long_desc": "This exquisite idol of Lord Ganesha is a masterpiece of craftsmanship, meticulously hand-carved to showcase the deity's divine grace and wisdom. Every intricate detail, from the serene expression on Ganesha's face to the delicate ornaments adorning his figure, exudes spirituality and artistry. Symbolizing wisdom, prosperity, and good fortune, this idol is perfect for enhancing the sanctity of your home temple or adding a festive charm to your decor during celebrations like Ganesh Chaturthi. Made with high-quality materials, it radiates a divine aura that inspires devotion and positivity.",
+        "short_desc": "A beautifully handcrafted idol of Lord Ganesha, symbolizing wisdom, prosperity, and good fortune. Perfect for home temples or festive decor.",
+        "image": "/category_images/Ganesh 1.png"
+    },
+    {
+        "name": "LORD GANPATI",
+        "title": "An Intricately Designed Idol Of",
+        "long_desc": "This intricately crafted idol of Lord Ganpati embodies serenity and spiritual energy. The fine detailing on the idol, including the traditional motifs and gentle posture, makes it a perfect centerpiece for meditation spaces or puja rooms. The calming expression and vibrant hues symbolize peace and positivity, creating an ambiance of divine tranquility. Whether placed in a personal shrine or a spiritual corner, this idol becomes a beacon of hope, uplifting the atmosphere with its divine presence.",
+        "short_desc": "An intricately designed idol of Ganpati, embodying serenity and spiritual energy. Ideal for bringing positivity and peace into any space.",
+        "image": "/category_images/Ganesh 2.png"
+    },
+    {
+        "name": "GANPATI BAPPA",
+        "title": "Hand-Sculpted With Care, This Idol Captures The Essence Of",
+        "long_desc": "Every curve and contour of this idol reflects the devotion and artistry of its creation. Hand-sculpted with exceptional care, this depiction of Ganpati Bappa is a beautiful representation of the deity's blessings of prosperity and happiness. The intricate patterns on the base and the embellishments on Ganesha's crown add a touch of grandeur, while the idol's gentle smile evokes a sense of comfort and protection. Perfect for devotees seeking spiritual inspiration, this piece brings the essence of Ganpati's blessings into your home.",
+        "short_desc": "Hand-sculpted with care, this idol captures the essence of Ganpati Bappa, bringing blessings of prosperity and happiness.",
+        "image": "/category_images/Ganesh 3.png"
+    },
+    {
+        "name": "GAJAMUKHA",
+        "title": "A Perfect Blend Of Tradition And Contemporary Art Of",
+        "long_desc": "This idol stands out as a harmonious blend of traditional craftsmanship and modern design, making it ideal for those who value both heritage and contemporary aesthetics. The clean lines, subtle embellishments, and unique color palette make it a versatile addition to any setting—be it a traditional temple or a modern living space. Representing elegance and spirituality, this idol serves as a reminder of Lord Ganesha's teachings of overcoming obstacles while enhancing the artistic appeal of your decor.",
+        "short_desc": "A perfect blend of tradition and contemporary art, this idol adds a touch of elegance and spirituality to your decor.",
+        "image": "/category_images/Ganesh 4.png"
+    },
+    {
+        "name": "VIGHNAHARTA",
+        "title": "This Beautifully Detailed Idol Of",
+        "long_desc": "This exquisite idol of Lord Ganesha is a masterpiece of craftsmanship, meticulously hand-carved to showcase the deity's divine grace and wisdom. Every intricate detail, from the serene expression on Ganesha's face to the delicate ornaments adorning his figure, exudes spirituality and artistry. Symbolizing wisdom, prosperity, and good fortune, this idol is perfect for enhancing the sanctity of your home temple or adding a festive charm to your decor during celebrations like Ganesh Chaturthi. Made with high-quality materials, it radiates a divine aura that inspires devotion and positivity.",
+        "short_desc": "This beautifully detailed idol of Vighnaharta (Remover of Obstacles) serves as a spiritual symbol of success and peace.",
+        "image": "/category_images/Ganesh 5.png"
+    },
+    {
+        "name": "VINAYAKA",
+        "title": "A Magnificent Depiction Of",
+        "long_desc": "This exquisite idol of Lord Ganesha is a masterpiece of craftsmanship, meticulously hand-carved to showcase the deity's divine grace and wisdom. Every intricate detail, from the serene expression on Ganesha's face to the delicate ornaments adorning his figure, exudes spirituality and artistry. Symbolizing wisdom, prosperity, and good fortune, this idol is perfect for enhancing the sanctity of your home temple or adding a festive charm to your decor during celebrations like Ganesh Chaturthi. Made with high-quality materials, it radiates a divine aura that inspires devotion and positivity.",
+        "short_desc": "A magnificent depiction of Lord Ganesha, radiating divine grace and blessings to fill your home with joy and prosperity.",
+        "image": "/category_images/Ganesh 6.png"
     }
 ]
