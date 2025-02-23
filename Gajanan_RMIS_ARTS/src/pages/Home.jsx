@@ -1,9 +1,17 @@
 import React from 'react'
+import Bappa from '../jsons/Bappa.json'
 
 const Home = () => {
   return (
     <div>
-      this is home page
+      {
+        Bappa.map((bappa) => {
+          return <>
+            <p>{bappa.name}</p>
+            <img src={bappa.image} />
+          </>
+        })
+      }
     </div>
   )
 }
