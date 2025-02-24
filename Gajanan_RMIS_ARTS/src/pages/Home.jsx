@@ -1,6 +1,7 @@
 import React from 'react'
 import Bappa from '../jsons/Bappa.json'
 import Lord_Ganesh from '../components/Lord_Ganesh'
+import Lord_Shiva from '../components/Lord_Shiva'
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
         })
       } */}
       <Lord_Ganesh/>
+      <Lord_Shiva/>
     </>
   )
 }
