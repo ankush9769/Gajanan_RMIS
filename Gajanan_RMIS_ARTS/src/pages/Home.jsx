@@ -1,6 +1,6 @@
 import React from 'react'
 import Bappa from '../jsons/Bappa.json'
-import Category from '../components/Category_cart'
+import Lord_Ganesh from '../components/Lord_Ganesh'
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
           </>
         })
       } */}
-      <Category></Category>
+      <Lord_Ganesh/>
     </>
   )
 }
