@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import Lord_Ganesh from '../components/Lord_Ganesh'
 import Lord_Shiva from '../components/Lord_Shiva'
 import Lord_Kanha from '../components/Lord_Kanha'
+import Pop_up_card from '../components/Pop_up_card'
+import Category_contact from '../components/Category_contact'
 
 const Category = () => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -27,6 +29,8 @@ const Category = () => {
       {shouldShowComponent('ganesh') && <Lord_Ganesh />}
       {shouldShowComponent('shiva') && <Lord_Shiva />}
       {shouldShowComponent('kanha') && <Lord_Kanha />}
+      <Pop_up_card />
+      <Category_contact/>
     </>
   )
 }
