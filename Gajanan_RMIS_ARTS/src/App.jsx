@@ -5,10 +5,10 @@ import Contacts from './pages/Contacts'
 import Category from './pages/Category'
 import FAQ from './pages/FAQ'
 import Privacy from './pages/Privacy'
-import Terms_Condition from './pages/Terms_Condition'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import './App.css'
+import TermsAndConditions from './pages/TermsAndConditions'
 
 function App() {
 
@@ -23,7 +23,7 @@ function App() {
         <Route path="/contacts" element={<Contacts />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/privacy" element={<Privacy />} />
-        <Route path="/terms_condition" element={<Terms_Condition />} />
+        <Route path="/termsandconditions" element={<TermsAndConditions />} />
       </Routes>
       <Footer></Footer>
 
