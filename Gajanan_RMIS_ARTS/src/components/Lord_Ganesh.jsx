@@ -5,16 +5,14 @@ import Ganesha from '../jsons/Bappa.json'
 export default function Lord_Ganesh() {
   return (
     <>
-      <div style={{ backgroundColor: 'orange', color: 'white', height: '4rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <p style={{ fontSize: '2rem', display: 'flex', alignItems: 'center', marginTop: '0.5rem', fontWeight: '700' }}>LORD GANESHA</p>
+      <div className="bg-warning text-white py-3 d-flex align-items-center justify-content-center">
+        <p className="fs-1 d-flex align-items-center  fw-bold mb-0">LORD GANESHA</p>
       </div>
-      <div style={{ display: 'flex' }}>
+      <div className="d-flex flex-wrap justify-content-center">
         {
           Ganesha.map((ganesha) => {
             return (
-
               <Category_card image={ganesha.image} short_desc={ganesha.short_desc} />
-
             )
           })
         }

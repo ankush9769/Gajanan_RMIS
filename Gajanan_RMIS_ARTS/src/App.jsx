@@ -13,7 +13,8 @@ import './App.css'
 function App() {
 
   return (
-    <BrowserRouter>
+    <div style={{ backgroundColor: '#F5F5DC' }}>
+      <BrowserRouter>
       <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -27,6 +28,9 @@ function App() {
       <Footer></Footer>
 
     </BrowserRouter>
+
+    </div>
+    
   )
 }
 

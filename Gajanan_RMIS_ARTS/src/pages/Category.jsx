@@ -13,12 +13,12 @@ const Category = () => {
 
   return (
     <>
-      <div className="search-container" style={{ padding: '20px', backgroundColor: '#f8f9fa' }}>
+      <div className="p-4 bg-light">
         <input
           type="text"
           placeholder="Search for Lord..."
-          className="form-control"
-          style={{ maxWidth: '600px', margin: '0 auto' }}
+          className="form-control mx-auto"
+          style={{ maxWidth: '600px' }}
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
         />

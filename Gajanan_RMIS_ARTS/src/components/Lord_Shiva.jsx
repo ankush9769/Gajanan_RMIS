@@ -6,10 +6,10 @@ import Category_card from './Category_card'
 const Lord_Shiva = () => {
   return (
     <>
-    <div style={{ backgroundColor: 'orange', color: 'white', height: '4rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-        <p style={{ fontSize: '2rem', display: 'flex', alignItems: 'center', marginTop: '0.5rem', fontWeight: '700' }}>LORD SHIVA</p>
+      <div className="bg-warning text-white py-3 d-flex align-items-center justify-content-center mt-5">
+        <p className="fs-1 d-flex align-items-center fw-bold mb-0">LORD SHIVA</p>
       </div>
-      <div style={{ display: 'flex' }}>
+      <div className="d-flex flex-wrap justify-content-center">
         {
           Bhole.map((bhole) => {
             return (
@@ -18,8 +18,6 @@ const Lord_Shiva = () => {
           })
         }
       </div>
-
-      
     </>
   )
 }
