@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Pop_up_card = ({ image, short_desc, isOpen, onClose }) => {
+const Pop_up_card = ({ image, title, name, long_desc, isOpen, onClose }) => {
   if (!isOpen) return null;
 
   return (
@@ -12,6 +12,7 @@ const Pop_up_card = ({ image, short_desc, isOpen, onClose }) => {
            onClick={e => e.stopPropagation()}>
         <button 
           className="btn-close position-absolute top-0 end-0 m-3" 
+          style={{zIndex: 10}}
           onClick={onClose}
         />
         <img 
@@ -25,8 +26,14 @@ const Pop_up_card = ({ image, short_desc, isOpen, onClose }) => {
             clipPath: 'ellipse(53% 63% at 54% 63%)'
           }}
         />
-        <div className="w-50 p-3">
-          <p className="card-text">{short_desc}</p>
+        <div className="w-50 p-1">
+          <p className="card-text ankush-popup fs-4" style={{position: 'absolute', zIndex: 1}}>{title}</p>
+        </div>
+        <div className="w-50 p-1" style={{marginTop: '4rem'}}>
+          <p className="card-text fw-bold fs-4">{name}</p>
+        </div>
+        <div className="w-50 p-1">
+          <p className="card-text" style={{fontSize: '0.72rem'}}>{long_desc}</p>
         </div>
       </div>
     </div>

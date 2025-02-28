@@ -12,7 +12,7 @@ export default function Lord_Ganesh() {
         {
           Ganesha.map((ganesha) => {
             return (
-              <Category_card image={ganesha.image} short_desc={ganesha.short_desc} />
+              <Category_card name={ganesha.name} title={ganesha.title} image={ganesha.image} short_desc={ganesha.short_desc} long_desc={ganesha.long_desc} />
             )
           })
         }
