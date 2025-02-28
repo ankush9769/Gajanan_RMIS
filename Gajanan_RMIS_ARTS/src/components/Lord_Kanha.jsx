@@ -12,7 +12,7 @@ export default function Lord_Kanha() {
         {
           Kanha.map((kanha) => {
             return (
-              <Category_card image={kanha.image} short_desc={kanha.short_desc} />
+              <Category_card name={kanha.name} title={kanha.title} image={kanha.image} short_desc={kanha.short_desc} long_desc={kanha.long_desc} />
             )
           })
         }

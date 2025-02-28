@@ -24,7 +24,9 @@ const Category_card = (props) => {
             
             <Pop_up_card 
                 image={props.image}
-                short_desc={props.short_desc}
+                long_desc={props.long_desc}
+                title={props.title}
+                name={props.name}
                 isOpen={isPopupOpen}
                 onClose={() => setIsPopupOpen(false)}
             />

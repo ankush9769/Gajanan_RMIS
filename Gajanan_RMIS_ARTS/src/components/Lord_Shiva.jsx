@@ -13,7 +13,7 @@ const Lord_Shiva = () => {
         {
           Bhole.map((bhole) => {
             return (
-              <Category_card image={bhole.image} short_desc={bhole.short_desc} />
+              <Category_card name={bhole.name} title={bhole.title} image={bhole.image} short_desc={bhole.short_desc} long_desc={bhole.long_desc} />
             )
           })
         }
