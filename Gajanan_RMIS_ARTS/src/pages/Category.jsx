@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import Lord_Ganesh from '../components/Lord_Ganesh'
-import Lord_Shiva from '../components/Lord_Shiva'
-import Lord_Kanha from '../components/Lord_Kanha'
-import Pop_up_card from '../components/Pop_up_card'
-import Category_contact from '../components/Category_contact'
+import Lord_Ganesh from '../components/Ankush/Lord_Ganesh'
+import Lord_Shiva from '../components/Ankush/Lord_Shiva'
+import Lord_Kanha from '../components/Ankush/Lord_Kanha'
+import Pop_up_card from '../components/Ankush/Pop_up_card'
+import Category_contact from '../components/Ankush/Category_contact'
 
 const Category = () => {
   const [searchTerm, setSearchTerm] = useState('');

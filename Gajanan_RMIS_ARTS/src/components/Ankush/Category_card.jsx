@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Ganesha from '../jsons/Bappa.json'
+import Ganesha from '../../jsons/Bappa.json'
 import Pop_up_card from './Pop_up_card'
 
 const Category_card = (props) => {

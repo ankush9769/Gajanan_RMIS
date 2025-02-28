@@ -1,5 +1,5 @@
 import React from 'react'
-import Bhole from '../jsons/Bhole.json'
+import Bhole from '../../jsons/Bhole.json'
 import Category_card from './Category_card'
 
 

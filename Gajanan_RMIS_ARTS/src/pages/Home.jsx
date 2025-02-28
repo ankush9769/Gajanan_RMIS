@@ -1,8 +1,8 @@
 import React from 'react'
 import Bappa from '../jsons/Bappa.json'
-import Lord_Ganesh from '../components/Lord_Ganesh'
-import Lord_Shiva from '../components/Lord_Shiva'
-import Lord_Kanha from '../components/Lord_Kanha'
+import Lord_Ganesh from '../components/Ankush/Lord_Ganesh'
+import Lord_Shiva from '../components/Ankush/Lord_Shiva'
+import Lord_Kanha from '../components/Ankush/Lord_Kanha'
 
 const Home = () => {
   return (

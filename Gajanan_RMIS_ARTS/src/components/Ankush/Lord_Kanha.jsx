@@ -1,6 +1,6 @@
 import React from 'react'
 import Category_card from './Category_card'
-import Kanha from '../jsons/kanha.json'
+import Kanha from '../../jsons/kanha.json'
 
 export default function Lord_Kanha() {
   return (

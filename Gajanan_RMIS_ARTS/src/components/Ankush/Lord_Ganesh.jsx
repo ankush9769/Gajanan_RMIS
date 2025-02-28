@@ -1,6 +1,6 @@
 import React from 'react'
 import Category_card from './Category_card'
-import Ganesha from '../jsons/Bappa.json'
+import Ganesha from '../../jsons/Bappa.json'
 
 export default function Lord_Ganesh() {
   return (
