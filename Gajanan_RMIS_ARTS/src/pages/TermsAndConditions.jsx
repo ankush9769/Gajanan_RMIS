@@ -4,35 +4,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const TermsAndConditions = () => {
   return (
     <div style={{ backgroundColor: "#f8f8e5", minHeight: "100vh" }}>
-      {/* Header Section */}
       <div className="text-center text-white py-4 px-4" style={{ backgroundColor: "#6c4828", fontWeight: "bold" }}>
         TERMS & CONDITIONS FOR SHREE GAJANAN ARTS LLP
       </div>
 
-      {/* Navigation Bar */}
-      <nav className="nav justify-content-center py-3 px-4" style={{ fontFamily: "Times New Roman", fontSize: "18px" }}>
-        <a className="nav-link" href="#" style={{ color: "#ca9c40", fontWeight: "bold" }}>
-          Home
-        </a>
-        <a className="nav-link" href="#" style={{ color: "#ca9c40", fontWeight: "bold" }}>
-          About Us
-        </a>
-        <a className="nav-link" href="#" style={{ color: "#ca9c40", fontWeight: "bold" }}>
-          Categories
-        </a>
-        <a className="nav-link" href="#" style={{ color: "#ca9c40", fontWeight: "bold" }}>
-          Contact Us
-        </a>
-      </nav>
-
-      {/* Main Content */}
       <div className="container py-4 text-start">
         <p className="text-dark">Welcome To <strong>Shree Gajanan Arts LLP</strong>. By Accessing And Using This Website, You Agree To Comply With The Following Terms And Conditions. If You Do Not Agree With Any Part Of These Terms, Please Refrain From Using The Website.</p>
         <br/>
 
         <hr />
 
-        {/* Section 1 */}
         <br/>
 
         <h5><strong>1. Website Usage</strong></h5>
@@ -45,7 +26,6 @@ const TermsAndConditions = () => {
 
         <hr />
 
-        {/* Section 2 */}
         <br/>
         <h5><strong>2. Intellectual Property Rights</strong></h5>
         <ul>
@@ -56,7 +36,6 @@ const TermsAndConditions = () => {
 
         <hr />
 
-        {/* Section 3 */}
         <br/>
         <h5><strong>3. User Conduct</strong></h5>
         <span style={{ fontSize: "16px" }}>By Using This Website, You Agree:</span>
@@ -70,7 +49,6 @@ const TermsAndConditions = () => {
 
         <hr />
 
-        {/* Section 4 */}
         <br/>
         <h5><strong>4. Disclaimer Of Warranties</strong></h5>
         <ul>
