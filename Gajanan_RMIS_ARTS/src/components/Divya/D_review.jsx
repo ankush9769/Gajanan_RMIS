@@ -1,5 +1,5 @@
 import React from "react";
-import card from "../assets/card.jpg";
+import card from "../../assets/card.jpg";
 // import "bootstrap/dist/css/bootstrap.min.css";
  import "./D_review.css";
 

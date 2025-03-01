@@ -1,6 +1,6 @@
 import React from 'react';
 import './D_abcontactus.css';  
-import contactusimg from '../assets/contactusimg.jpg';
+import contactusimg from '../../assets/contactusimg.jpg';
 
 const ContactSection = () => {
     return (
