@@ -1,5 +1,5 @@
 import React from 'react'
-import D_Form from '../Divya/D_Form'
+import D_Form from '../components/Divya/D_Form'
 
 const Contacts = () => {
   return (
