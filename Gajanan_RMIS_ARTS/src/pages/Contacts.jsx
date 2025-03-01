@@ -1,9 +1,10 @@
 import React from 'react'
+import D_Form from '../Divya/D_Form'
 
 const Contacts = () => {
   return (
     <div>
-      this is contacts page
+      <D_Form/>
     </div>
   )
 }

@@ -5,7 +5,7 @@ import Black from "/public/home_images/Black.jpeg"
 
 const D_HB = () => {
   return (
-    <section className="position-relative text-white text-center">
+    <section className="position-relative text-black text-center">
       <div className="hero-overlay position-absolute w-100 h-100" style={{ backgroundColor: "rgba(0, 0, 0, 0.5)" }}></div>
       <img
         src={Black}

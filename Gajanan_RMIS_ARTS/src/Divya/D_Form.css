@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFF0;
+  }
+  .sub-upd {
+    font-family: "'Montserrat', sans-serif";
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 29.26px;
+    height: 57.69px;
+    font-size: 24px;
+  }
+  
+  .letter-form .form-control {
+    font-family: "'Montserrat', sans-serif";
+    font-weight: 400;
+    border-radius: 0;
+  }
+  .letter-form .form-control::placeholder {
+    color: #B1ACAC; 
+  }
+
+  .btn-letter {
+    height: 32px;
+    background-color: #85B28C;
+    font-family: "Roboto Serif";
+    font-weight: 500;
+    font-size: 20px;
+    border: none;
+    color: white;
+  }

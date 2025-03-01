@@ -1,0 +1,80 @@
+.Review {
+    background-color: #85B28C;
+    width: 100%;
+    max-width: 100%;
+    padding: 2rem 1rem;
+    overflow: hidden;
+}
+
+
+.head h1 {
+    font-size: 2.5rem;
+    font-weight: 900;
+    /* color: #FFFFF0; */
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0.5rem 1rem;
+    letter-spacing: 0.3rem;
+    display: inline-block;
+}
+
+
+.marquee-container {
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: relative;
+    padding: 1rem 0;
+}
+
+
+@keyframes marquee-scroll {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee-content {
+    display: flex;
+    gap: 2rem;
+    animation: marquee-scroll 20s linear infinite;
+}
+
+
+.marquee-content img {
+    width: 17rem;
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0rem 0.2rem 0.5rem rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+
+.marquee-content img:hover {
+    filter: brightness(1.12);
+    transform: scale(1.12);
+    box-shadow: 0rem 0.4rem 1.2rem rgba(0, 0, 0, 0.35);
+}
+
+
+@media (max-width: 768px) {
+    .Review {
+        padding: 2rem 0.5rem;
+    }
+
+    .head h1 {
+        font-size: 1.8rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .marquee-content {
+        animation: marquee-scroll 10s linear infinite; 
+    }
+
+    .marquee-content img {
+        width: 12rem;
+    }
+}
