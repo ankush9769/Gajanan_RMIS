@@ -1,12 +1,14 @@
-import React from 'react'
-import D_Form from '../components/Divya/D_Form'
+import React from "react";
+import D_Form from "../components/Divya/D_Form";
+import ContactUs from "../components/Divya/contact";
 
 const Contacts = () => {
   return (
     <div>
-      <D_Form/>
+      <ContactUs></ContactUs>
+      <D_Form />
     </div>
-  )
-}
+  );
+};
 
-export default Contacts
+export default Contacts;
